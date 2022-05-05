@@ -12,7 +12,6 @@ open.addEventListener('click',AbaOn);
 function AbaOn(){
   Abastyle.width = '80%';
   opensty.transform = 'rotate(45deg)';
-  Abastyle.padding = '65px 0px 0px 10px';
   htmlsty.overflow = 'hidden';
   open.addEventListener('click',AbaOff);
   open.removeEventListener('click',AbaOn);
@@ -22,7 +21,6 @@ function AbaOn(){
 function AbaOff(){
   Abastyle.width = '0%';
   opensty.transform = 'rotate(0deg)';
-  Abastyle.padding = '0px';
   htmlsty.overflow = 'scroll';
   open.addEventListener('click',AbaOn);
   open.removeEventListener('click',AbaOff);
