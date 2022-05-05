@@ -10,3 +10,21 @@ html , body {
   background: lightgray;
 }
 
+body{
+  position: relative;
+}
+
+@font-face {
+  font-family: "geo";
+  src: url("../fontes/geo.woff");
+}
+
+@font-face {
+  font-family: "basic";
+  src: url("../fontes/basic.woff");
+}
+
+@font-face {
+  font-family: "caviar";
+  src: url("../fontes/caviar.woff");
+}
