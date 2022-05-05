@@ -11,22 +11,25 @@
   flex-flow: column nowrap;
   align-items: flex-start;
   justify-content: flex-start;
+  transition: .1s !important;
   border-radius: 0px 20px 20px 0px;
   overflow: hidden;
+  padding: 65px 0px 0px 0px !important;
 }
 
 #Aba a{
-  margin: 10px 20px;
+  margin: 5px 0px 10px 25px;
   width: 80%;
   padding: 10px 7px;
   letter-spacing: 2px;
   text-decoration: none;
   color: #000000;
+  border-bottom: 1px solid #000000;
   background: transparent;
-  border-radius: 5px;
+  border-radius: 1px;
   text-transform: capitalize;
 }
 
 #Aba a:hover{
-  text-decoration: underline #000000;
+  
 }
