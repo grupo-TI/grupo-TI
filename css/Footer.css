@@ -1,0 +1,33 @@
+body footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background: #FFFFFF20;
+  backdrop-filter: blur(8px);
+  width: 100%;
+  height: 60px;
+  box-shadow: 0px -2px 8px #00000030;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+body footer a{
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 18px;
+  border: none;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  margin: 0px 4px;
+  font-family: basic;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+body footer a:first-child , body footer a:last-child{
+  border: none;
+  margin: 0px 2px;
+}

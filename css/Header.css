@@ -1,6 +1,7 @@
 body header{
   height: 110px;
-  background: transparent;
+  background: #FFFFFF20;
+  backdrop-filter: blur(8px);
   width: 100%;
   position: fixed;
   top: 0px;
@@ -19,14 +20,3 @@ body header img{
   width: 80px;
 }
 
-body header #open{
-  padding: 4px 16px;
-  border: none;
-  font-size: 2rem;
-  background: transparent;
-  transition: .3s !important;
-  border-radius: 0px;
-  position: fixed;
-  right: 12px;
-  top: 30px;
-}
