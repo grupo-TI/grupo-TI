@@ -1,9 +1,10 @@
 body header{
   height: 70px;
-  background: #FFFFFF20;
+  background: linear-gradient(135deg, #FF7700,#FF9900);
   backdrop-filter: blur(8px);
   width: 100%;
-  position: fixed;
+  position: fixed;  
+  border-radius: 0px 0px 5px 5px;
   top: 0px;
   left: 0px;
   display: flex;
